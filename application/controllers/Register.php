@@ -13,7 +13,7 @@ class Register extends CI_Controller {
 			if ( $this->input->post('phone') ) 
 			{
 				$this->db->where('phone', $this->input->post('phone'));
-				$data = date("Y-m-d H:i:s");
+				
 				$data = $this->db->get('register');
 				$count = $data->num_rows();
 

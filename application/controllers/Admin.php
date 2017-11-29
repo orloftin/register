@@ -81,9 +81,6 @@ class Admin extends CI_Controller {
 
 
 		$this->load->view('board', $info);		
-
-
-
 	}
 
 	public function company()
